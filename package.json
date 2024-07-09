@@ -1,6 +1,6 @@
 {
   "name": "jav-ts-ui-library",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/jav-ui-library.umd.cjs",
