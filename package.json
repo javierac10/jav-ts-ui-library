@@ -7,7 +7,7 @@
   "module": "./dist/jav-ui-library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/javierac10/jav-ts-ui-library.git"
+    "url": "git+https://github.com/javierac10/jav-ts-ui-library.git"
   },
   "keywords": [
     "UI Library",
@@ -20,7 +20,7 @@
     "name": "Javier Araujo",
     "url": "https://github.com/javierac10"
   },
-  "license":"ISC",
+  "license": "ISC",
   "exports": {
     ".": {
       "import": "./dist/jav-ui-library.js",
