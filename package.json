@@ -1,0 +1,51 @@
+{
+  "name": "jav-ts-ui-library",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/jav-ui-library.umd.cjs",
+  "module": "./dist/jav-ui-library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javierac10/jav-ts-ui-library.git"
+  },
+  "keywords": [
+    "UI Library",
+    "Vue js",
+    "typescript",
+    "test library"
+  ],
+  "author": {
+    "email": "javieraraujocuadros@gmail.com",
+    "name": "Javier Araujo",
+    "url": "https://github.com/javierac10"
+  },
+  "license":"ISC",
+  "exports": {
+    ".": {
+      "import": "./dist/jav-ui-library.js",
+      "require": "./dist/jav-ui-library.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.12",
+    "quasar": "^2.16.5",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.7.0",
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.77.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}
