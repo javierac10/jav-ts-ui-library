@@ -14,10 +14,18 @@ import 'quasar/src/css/index.sass'
 import './style.css'
 import App from './App.vue'
 
+// const app = createApp(App, {
+//   provide: {
+//     $q: useQuasar()
+//   }
+// })
 const app = createApp(App)
-
+// app.config.globalProperties.$q = useQuasar()
 app.use(Quasar, {
     plugins: {}, // import Quasar plugins and add here
+    config: {
+      
+    }
     /*
     config: {
       brand: {
@@ -31,5 +39,7 @@ app.use(Quasar, {
     }
     */
   })
+  // app.component('$q', useQuasar)
+  // app.component('q-btn', QBtn)
 
 app.mount('#app')

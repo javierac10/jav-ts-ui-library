@@ -1,18 +1,25 @@
 <template>
     <div class="q-pa-md q-gutter-sm">
-      <q-avatar color="red" text-color="white" icon="directions" />
-      <q-avatar color="primary" text-color="white">J</q-avatar>
-      <q-avatar
-        size="100px"
-        font-size="52px"
-        color="teal"
-        text-color="white"
-        icon="directions"
-      />
-      <q-avatar size="24px" color="" text-color="orange">J</q-avatar>
-      <q-avatar>
-        <img src="https://cdn.quasar.dev/img/avatar.png" />
-      </q-avatar>
+      <div class="avatar">
+        <span>Q</span>
+      </div>
     </div>
   </template>
+<style scoped>
+  .avatar {
+    border-radius: 50%;
+    background-color: red;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background-color: rgba(255,0,0, 0.8);
+    }
+  }
+</style>
   

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import TestButton from './components/TestButton.vue'
-import TestAvatar from './components/TestAvatar.vue'
+
+
 </script>
 
 <template>
@@ -13,8 +13,8 @@ import TestAvatar from './components/TestAvatar.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <TestAvatar />
-  <TestButton />
+  <!-- <TestAvatar />
+  <TestButton /> -->
   <HelloWorld msg="Vite + Vue" />
 </template>
 
