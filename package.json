@@ -16,7 +16,7 @@
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/types/index.d.ts",
-  "./styles": "./dist/style.css",
+  "./styles": "./dist/css/style.css",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
@@ -40,12 +40,13 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "@quasar/extras": "^1.16.12",
-    "@quasar/vite-plugin": "^1.7.0",
     "quasar": "^2.16.5",
     "vue": "^3.4.29"
   },
   "devDependencies": {
+    "quasar": "^2.16.5",
+    "@quasar/extras": "^1.16.12",
+    "@quasar/vite-plugin": "^1.7.0",
     "@types/node": "^20.14.10",
     "@vitejs/plugin-vue": "^5.0.5",
     "rollup-plugin-peer-deps-external": "^2.2.4",

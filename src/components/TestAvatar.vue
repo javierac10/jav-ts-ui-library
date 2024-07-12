@@ -1,25 +1,26 @@
 <template>
     <div class="q-pa-md q-gutter-sm">
       <div class="avatar">
-        <span>Q</span>
+        <q-avatar color="primary" text-color="white">{{ value }}</q-avatar>
       </div>
     </div>
   </template>
+<script lang="ts" setup>
+
+  interface Props {
+    value: string
+  }
+
+  defineProps<Props>();
+
+</script>
 <style scoped>
   .avatar {
-    border-radius: 50%;
     background-color: red;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     &:hover {
       background-color: rgba(255,0,0, 0.8);
     }
   }
+  
 </style>
   
